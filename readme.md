@@ -1,7 +1,7 @@
 # Renaisance era painting dataset with annotated hands and faces
 These paintings and annotations are used in my MSc project on the subject of using algorithms to automatically detect hands in Renaissance era paintings.
 
-The images and some meta data are sourced from [WikiArt.org](https://www.wikiart.org/), whom employ a fair use principle. Hand and face annotations are manually added by me, and are hereby released under the CC BY 4.0 license for you to use.
+The images and some meta data are sourced from [WikiArt.org](https://www.wikiart.org/), who employ a fair use principle. Hand and face annotations are manually added by me, and are hereby released under the CC BY 4.0 license for you to use.
 
 # Annotation syntax
 The annotations.xml file in this repository contains the following information:
