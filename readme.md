@@ -5,15 +5,15 @@ The images and some meta data are sourced from [WikiArt.org](https://www.wikiart
 
 # Annotation syntax
 The annotations.xml file in this repository contains the following information:
- - <filename> Filename of the painting, relative to this repository;
- - <width> <height> The dimensions of the image;
- - <title> <author> <genre> <technique> <keywords> Meta data as provided by WikiArt;
- - <url> The original URL used to download the meta data from. Some URLs may no longer work as WikiArt updates its database;
- - <faces> <hands> Annotated data provided by me, with the following properties:
-   - <x> <y> The center of the annotation rectangle. This is relative to the center of the painting. (i.e., some coordinates will be negative);
-   - <w> <h> The width and height of the rectangular annotation;
-   - <person> A unique number within a painting referring to a person. Note that these numbers are not necessarily incremental (During the annotation process I used colors to indicate persons (see screenshot below), each color has a unique number);
-   - <left> <right> A boolean indicating whether this pertains a left hand or right hand. This data is not available for faces. Note that some annotations are both left and right hands, this means hands of a single person are significantly overlapping and creating two overlapping annotations would've been too tedious. 
+ - \<filename> Filename of the painting, relative to this repository;
+ - \<width> \<height> The dimensions of the image;
+ - \<title> \<author> \<genre> \<technique> \<keywords> Meta data as provided by WikiArt;
+ - \<url> The original URL used to download the meta data from. Some URLs may no longer work as WikiArt updates its database;
+ - \<faces> \<hands> Annotated data provided by me, with the following properties:
+   - \<x> \<y> The center of the annotation rectangle. This is relative to the center of the painting. (i.e., some coordinates will be negative);
+   - \<w> \<h> The width and height of the rectangular annotation;
+   - \<person> A unique number within a painting referring to a person. Note that these numbers are not necessarily incremental (During the annotation process I used colors to indicate persons, each color has a unique number);
+   - \<left> \<right> A boolean indicating whether this pertains a left hand or right hand. This data is not available for faces. Note that some annotations are both left and right hands, this means hands of a single person are significantly overlapping and creating two overlapping annotations would've been too tedious. 
 
 Only paintings with fewer than 5 persons are included. Paintings with too small hands are filtered.
 
